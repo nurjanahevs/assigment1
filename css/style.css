@@ -1,0 +1,192 @@
+/* for all */
+body {
+  background: url("./assets/img/img2.jpg") center;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+/* for homepage /index */
+.banner {
+  background: url("./assets/img/decor3.jpg") center;
+  margin-top: 67px;
+  padding-bottom: 10px;
+  height: 300px;
+}
+
+.content h4:hover {
+  transform: translateX(0.15em);
+  background-color: #f08080;
+}
+
+.content h4 {
+  margin-top: 20px;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+
+p {
+  text-align: justify;
+  font-family: cursive;
+  font-size: 21px;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo {
+  padding-top: 70px;
+}
+
+.video {
+  width: 500px;
+  height: 500px;
+}
+
+main.form {
+  padding: 100px;
+}
+
+.judul {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  font-family: cursive;
+  font-weight: 900;
+}
+
+.vid {
+  margin-bottom: 20px;
+  margin-right: 30px;
+  position: relative;
+  overflow: visible;
+}
+
+.text {
+  margin-top: 15%;
+}
+
+.lead {
+  font-size: 25px;
+}
+
+.cont {
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 30px;
+  font-family: fantasy;
+}
+
+.form {
+  margin-bottom: 200px;
+}
+
+.comments {
+  text-align: center;
+}
+
+.choose {
+	margin-top: 0;
+}
+
+button.message1 {
+	background-color: rgb(253, 236, 0);
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	width: 90%;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+
+}
+
+button.message2 {
+	background-color: rgb(253, 236, 0);
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	width: 90%;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+}
+
+button.message3 {
+	background-color: rgb(253, 236, 0);
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	width: 90%;
+	height: 35px;
+	border-radius: 5px;
+	border: none;
+}
+
+button .close {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -30px;
+	margin-left: 310px;
+}
+
+
+footer {
+	background: #393e46;
+	color: #fff;
+	padding: 5em 0;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 15px;
+  }
+  .vid {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .video {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* Medium denvices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

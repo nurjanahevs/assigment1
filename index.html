@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>evasitinurjanah'sweb</title>
+    <link rel="icon" href="./assets/img/eva1.jpeg" type="image"/>
+    <link href="./bootstrap-5.1.2-dist/bootstrap-5.1.2-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">LaBiLrin'sweb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-right" id="navbarText">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+    <main>
+      <div class="container-fluid banner">
+        <div class="container text-center">
+          <h4 class="display-6 shadow-lg" id="welcome"><strong>Selamat Datang di LaBiLrin'sweb</strong></h4>
+          <h4 class="display-4" id="welcome1">Semoga Penantianmu Menyenangkan :)</h4>
+          <br />
+          <h4>Sesuatu tentangku</h4>
+          <a href="about.html">
+            <button type="button" class="btn btn-light btn-sm"><img src="./assets/img/logo1.png" width="60" height="20" /></button>
+          </a>
+          <br />
+          <h1><img src="./assets/icons/iconcursor.svg" /></h1>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div class="content container">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <h4>TERTOLAK KARENA RAGA</h4>
+            <h5 class="author mb-2 text-muted">Author: Anonymous</h5>
+            <p>
+              Sebenarnya tidak ada orang jelek di muka bumi ini. Yang ada hanyalah jiwa yang kurang percaya diri. Seunik
+              apapun wajahmu, jika percaya diri pasti akan terlihat lebih menarik.
+            </p>
+            <p class="updated"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <a href="post1.html">
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </a>
+            <h4>NAMA DALAM DOA</h4>
+            <h5 class="author mb-2 text-muted">Author: Anonymous</h5>
+            <p>Hampir lima tahun aku selalu menyebut sebuah nama dalam doa. Nama yang menghiasi sujud-sujud panjangku, nama yang membuat malamku sesak penuh rindu, nama yang sering kusebut dalam derai air mata di hadapan-Nya.</p>
+            <p class="updated"><small class="text-muted">Last updated 4 mins ago</small></p>
+            <a href="post2.html">
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </a>
+            <h4>WANITA DAN PENANTIAN</h4>
+            <h5 class="author mb-2 text-muted">Author: Anonymous</h5>
+            <p>
+              Penantian selalu identik dengan wanita. Seakan tugas mereka hanya menunggu. Dan tugas mencari diserahkan sepenuhnya pada kaum Adam. Padahal ketika diturunkan ke bumi Adam dan Hawa saling mencari sebelum dipertemukan bukan?
+            </p>
+            <p class="updated"><small class="text-muted">Last updated 5 mins ago</small></p>
+            <a href="post3.html">
+              <button type="button" class="btn btn-secondary">Read More</button>
+            </a>
+          </div>
+          <aside class="col-12 col-lg-4">
+            <class class="row ms-4">
+              <div class="buttons">
+                <p>Bagaimana perasaanmu hari ini?</p>
+                <button onclick="notifyBersyukur()">Bersyukur</button>
+                <button onclick="notifyGelisah()">Gelisah</button>
+                <button onclick="notifySulit()">Sulit</button>
+              </div>
+              <div id="notification-area"></div>
+              <img src="./assets/img/buku.jpg" />
+            </class>
+          </aside>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-secondary text-white text-center pb-5">
+      <p id="foot"><br />Created with <img src="./assets/icons/iconheart.svg" /> by <a href="https://www.instagram.com/labilrin" target="_blank" class="text-white fw-bold">Eva Siti Nurjanah</a></p>
+      <section class="social-section">
+        <i><img src="./assets/icons/iconmonstr-twitter-1.svg" /></i>
+        <i><img src="./assets/icons/iconmonstr-facebook-3.svg" /></i>
+        <i><img src="./assets/icons/iconmonstr-linkedin-3.svg" /></i>
+        <i><img src="./assets/icons/iconmonstr-gmail-1.svg" /></i>
+        <br />
+      </section>
+    </footer>
+    <script src="./assets/library/jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap-5.1.2-dist/bootstrap-5.1.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
